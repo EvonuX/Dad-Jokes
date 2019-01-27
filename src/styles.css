@@ -119,7 +119,7 @@ button:hover {
   transform: translateY(2px);
 }
 
-@media screen and (max-width: 1024px) and (min-width: 1025px) {
+@media screen and (max-width: 1600px) and (min-width: 1025px) {
   li {
     max-width: 100%;
   }
