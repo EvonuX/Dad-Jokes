@@ -104,7 +104,7 @@ form div {
 button {
   border: none;
   outline: none;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 0 5px;
   color: #fff;
   background: #2c3e50;
@@ -117,6 +117,12 @@ button {
 button:hover {
   background: #34495e;
   transform: translateY(2px);
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1025px) {
+  li {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
