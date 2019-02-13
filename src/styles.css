@@ -8,6 +8,7 @@
 html {
   background-image: url("./images/download.png");
   background-size: cover;
+  background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   height: 100vh;
@@ -49,7 +50,7 @@ li {
   background: #fff;
   padding: 15px;
   cursor: default;
-  max-width: 50%;
+  max-width: 1200px;
   margin: 0 auto;
   transition: all .2s;
 }
